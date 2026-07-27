@@ -1,7 +1,16 @@
 aid: getsona
 name: Getsona
-description: Getsona is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Getsona (Sona) is an AI-powered workforce management platform that helps large,
+  multi-site organizations make better workforce decisions across forecasting,
+  scheduling, time and attendance, HR, and payroll. Marketed as "AI for better
+  workforce decisions," Sona serves enterprises in hospitality, hotels, care,
+  retail, and logistics, with customers including Popeyes UK, Paul Bakery,
+  Salutem Healthcare, and Liaise. The platform pairs operational scheduling with
+  an enterprise app builder (Sona Forge) and a catalog of integrations, but as of
+  this profile it publishes no public developer API, API documentation, SDKs,
+  webhooks, or developer portal. Getsona is tracked in the API Evangelist network
+  as a portfolio company of Felicis.
 url: https://raw.githubusercontent.com/api-evangelist/getsona/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.sona.ai/hubfs/sona-thumbnail.webp
 tags:
 - Company
+- Workforce Management
+- Human Resources
+- Scheduling
+- Payroll
+- Time and Attendance
+- Artificial Intelligence
+- Enterprise
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://getsona.com
+  url: https://www.sona.ai
+- type: Blog
+  url: https://www.sona.ai/blog
+- type: Pricing
+  url: https://www.sona.ai/pricing
+- type: PrivacyPolicy
+  url: https://www.sona.ai/privacy-policy
+- type: SignUp
+  url: https://www.sona.ai/book-a-demo
+- type: LinkedIn
+  url: https://www.linkedin.com/company/getsona
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
